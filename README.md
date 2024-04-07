@@ -14,21 +14,21 @@ The Nekron Network Scanner is a Bash script that simplifies network scanning usi
 1. Ensure Nmap is installed on your system (`sudo apt-get install nmap` for Ubuntu/Debian).
 2. Clone or download the script to your local machine:
    ```bash
-   git clone https://github.com/your-username/nekron-network-scanner.git
+   git clone https://github.com/nekio-sudo/Nekron-Scan.git
    ```
 3. Navigate to the script directory:
    ```bash
-   cd nekron-network-scanner
+   cd Nekron-Scan
    ```
 4. Make the script executable:
    ```bash
-   chmod +x nekron_network_scanner.sh
+   chmod +x Nekron.sh
    ```
 
 🔧 **Usage**
 1. Run the script in a terminal:
    ```bash
-   ./nekron_network_scanner.sh
+   ./Nekron.sh
    ```
 2. Enter the target IP address or hostname when prompted.
 3. Choose from the menu options (1-15) to perform the desired scan.
