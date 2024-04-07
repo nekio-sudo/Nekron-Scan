@@ -1,16 +1,16 @@
 ### Nekron Network Scanner
 
-#### Description
+📡 **Description**
 The Nekron Network Scanner is a Bash script that simplifies network scanning using Nmap. It provides predefined scan options for common scenarios, making it easy to perform targeted scans on specific hosts or networks.
 
-#### Features
+🚀 **Features**
 - **Quick Scan:** Fast scan with minimal information (`-T4 -F`).
 - **Full Scan:** Comprehensive scan with detailed information (`-T4 -A -v`).
 - **UDP Scan:** Scan for UDP services (`-sU`).
 - **Intense Scan:** Intensive scan with version detection (`--version-all`).
 - **Stealth Scan:** Stealthy scan using SYN packets (`-sS -A -T4`).
 
-#### Installation
+🛠️ **Installation**
 1. Ensure Nmap is installed on your system (`sudo apt-get install nmap` for Ubuntu/Debian).
 2. Clone or download the script to your local machine:
    ```bash
@@ -25,7 +25,7 @@ The Nekron Network Scanner is a Bash script that simplifies network scanning usi
    chmod +x nekron_network_scanner.sh
    ```
 
-#### Usage
+🔧 **Usage**
 1. Run the script in a terminal:
    ```bash
    ./nekron_network_scanner.sh
@@ -33,9 +33,9 @@ The Nekron Network Scanner is a Bash script that simplifies network scanning usi
 2. Enter the target IP address or hostname when prompted.
 3. Choose from the menu options (1-15) to perform the desired scan.
 
-#### Requirements
+📋 **Requirements**
 - Linux operating system (recommended).
 - Nmap installed on the system.
 
-#### Disclaimer
+⚠️ **Disclaimer**
 This script is provided for educational purposes only. Use it responsibly and ensure you have authorization before scanning any network or host that you do not own.
